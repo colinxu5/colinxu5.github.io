@@ -44,6 +44,11 @@ body
 .MathJax *, .MathJax_Display * { vertical-align: baseline }
 
 
+li
+{
+	margin-left: 0px;
+	margin-bottom: 50px;
+}
 
 
 #siteheader
