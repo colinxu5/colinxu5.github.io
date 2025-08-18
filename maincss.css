@@ -150,7 +150,13 @@ ul.publications li
     text-indent: -36px;
 	}
    
-
+publications
+	{
+	margin-left: 0px;
+	margin-bottom: 15px;
+	padding-left: 36px;
+    text-indent: -36px;
+	}
 
 #fontselect
     {
