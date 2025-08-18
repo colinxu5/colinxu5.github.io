@@ -61,7 +61,7 @@ body
     clear:both;
     font-size:18px;
     line-height:150%;
-    text-align:justify;
+    text-align:start;
     text-justify:auto;
     letter-spacing: normal;
     counter-reset: sectioncounter;
