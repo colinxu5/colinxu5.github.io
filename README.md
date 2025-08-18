@@ -1,2 +1,1 @@
-# colinxu5.github.io
-Colin Xu's Website
+colinxu5.github.io
