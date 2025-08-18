@@ -37,7 +37,7 @@ content:'';
 
 body
     {
-    font-family: Verdana , serif;
+    font-family: Verdana , sans-serif;
     }
     
 .MathJax, .MathJax_Display { vertical-align: baseline }
