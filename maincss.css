@@ -35,13 +35,19 @@ content:'';
 
 
 
-body
+  <!-- body
     {
-		href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"
-  <!--  font-family: Verdana , sans-serif; -->
+ font-family: Verdana , sans-serif; 
     }
+	-->
 
-<body style="background-color:##F6F8FF;">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<style>
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+<body style="background-color:##EEEEEE;">
 
     
 .MathJax, .MathJax_Display { vertical-align: baseline }
