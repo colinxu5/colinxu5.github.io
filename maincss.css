@@ -34,9 +34,7 @@ content:'';
 /* End Resets */
 
 
-
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
-<style>
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap");
 body {
   font-family: "Roboto", sans-serif;
 }
