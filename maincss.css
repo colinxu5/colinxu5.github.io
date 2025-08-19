@@ -37,6 +37,7 @@ content:'';
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap");
 body {
   font-family: "Roboto", sans-serif;
+	 background-color:#CCCCCC;
 }
 
 
@@ -46,7 +47,7 @@ body {
  font-family: Verdana , sans-serif; 
     }
 	-->
-<body style="background-color:#FEFEFF;">
+
 
     
 .MathJax, .MathJax_Display { vertical-align: baseline }
