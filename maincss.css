@@ -37,8 +37,12 @@ content:'';
 
 body
     {
-    font-family: Verdana , sans-serif;
+		href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"
+  <!--  font-family: Verdana , sans-serif; -->
     }
+
+<body style="background-color:##F6F8FF;">
+
     
 .MathJax, .MathJax_Display { vertical-align: baseline }
 .MathJax *, .MathJax_Display * { vertical-align: baseline }
