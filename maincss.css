@@ -60,6 +60,7 @@ body {
 .MathJax *, .MathJax_Display * { vertical-align: baseline }
 
 
+a {color: #75c2dd;}
 
 
 #siteheader
@@ -248,12 +249,12 @@ ol.enumerate li
 a.generallink 
     {
     text-decoration: none; 
-    color:#3083AC;
+    color:#75c2dd;
     }
 a.generallink:visited 
     {
     text-decoration: none;
-    color:#004276;
+    color:#75c2dd;
     }
 a.theoremlink 
     {
