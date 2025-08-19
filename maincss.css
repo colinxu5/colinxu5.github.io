@@ -162,8 +162,10 @@ ul.publications li
 .announcements
 	{
 	margin-left: 0px;
-	margin-bottom: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	padding-left: 75px;
+	padding-right: 75px;
     	}
 
 
