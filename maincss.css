@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap");
+
+
+
 html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote 
 {
 padding: 0;
@@ -34,7 +38,8 @@ content:'';
 /* End Resets */
 
 
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap");
+
+
 body {
   font-family: "Roboto";
 	
