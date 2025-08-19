@@ -158,6 +158,16 @@ ul.publications li
     text-indent: -36px;
 	}
 
+
+.announcements
+	{
+	margin-left: 0px;
+	margin-bottom: 15px;
+	padding-left: 75px;
+    	}
+
+
+
 #fontselect
     {
     float:right;
