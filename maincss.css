@@ -44,20 +44,13 @@ content:'';
 
 
 
-
 body {
- font-family: "Roboto", sans-serif;
- font-weight: 300;
+	font-family: "Roboto", sans-serif;
+	src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
+ 	font-weight: 300;
 	 background-color:#FAFAFD;
+	
 }
-
-
-
-  <!-- body
-    {
- font-family: Verdana , sans-serif; 
-    }
-	-->
 
 
     
