@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
+/* @font-face */ 
 
+@font-face{
+	font-family: "Roboto";
+	src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
+}
 
 html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote 
 {
