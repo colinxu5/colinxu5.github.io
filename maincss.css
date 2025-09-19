@@ -149,6 +149,7 @@ h3
 	}
 ul.publications
 	{	
+		
 	 list-style-image: url("bullet-icon.png");
 	 margin-top:0px;
 	 margin-left: 30px;
@@ -168,6 +169,10 @@ ul.publications li
 	margin-bottom: 15px;
 	padding-left: 36px;
     text-indent: -36px;
+
+	font-family: "Roboto", sans-serif;
+	src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
+ 	font-weight: 300;
 	}
 
 
