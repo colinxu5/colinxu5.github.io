@@ -101,7 +101,7 @@ body {
     .TOCLevel2 { font-size: 16px; margin-left: 24px; }
     .TOCLevel3 { display:none; }
     .TOCSectNum:after { content: "  "; }
-			font-family: "Roboto", sans-serif; 	src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
+	font-family: "Roboto", sans-serif; 	src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
 
 h1
     {
@@ -111,7 +111,7 @@ h1
     font-size: 24px;
     margin-top:48px;
     margin-bottom:36px;
-					font-family: "Roboto", sans-serif; 	src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
+	font-family: "Roboto", sans-serif; 	src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
     }
 h2
     {
@@ -121,7 +121,7 @@ h2
     font-size: 21px;
     margin-top:36px;
     margin-bottom:24px;  
-					font-family: "Roboto", sans-serif; 	src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
+	font-family: "Roboto", sans-serif; 	src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
     }
 h3
     {
@@ -130,8 +130,7 @@ h3
     font-size:18px;
     margin-right:14px;
     display:inline;
-
-			font-family: "Roboto", sans-serif; 	src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
+	font-family: "Roboto", sans-serif; 	src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
     }
     
 .abstracthead
