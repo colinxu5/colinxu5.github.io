@@ -6,9 +6,12 @@ padding: 0;
 margin: 0;
 font-family: "Roboto", sans-serif; 	src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';font-weight: normal;
 font-weight: normal;
-
-
 }
+
+html{
+	font-family: "Roboto", sans-serif; 	src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
+}
+
 table 
 { 
 border-collapse: collapse; 
