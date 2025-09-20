@@ -39,14 +39,16 @@ content:'';
 /* End Resets */
 
 
-<!--
 body {
 	font-family: "Roboto", sans-serif;
 	src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
- 	font-weight: 300;
-	 background-color:#FAFAFD;
 	}
---> 
+p
+{	
+font-family: "Roboto", sans-serif;
+src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
+}
+
 
     
 .MathJax, .MathJax_Display { vertical-align: baseline }
