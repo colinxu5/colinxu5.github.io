@@ -1,17 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
+/* @font-face */ 
+
+@font-face{
+	font-family: "Roboto";
+	src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
+}
 
 html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote 
 {
 padding: 0;
 margin: 0;
-font-family: "Roboto", sans-serif; 	src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';font-weight: normal;
 font-weight: normal;
 }
-
-html{
-	font-family: "Roboto", sans-serif; 	src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
-}
-
 table 
 { 
 border-collapse: collapse; 
@@ -42,15 +43,21 @@ content:'';
 /* End Resets */
 
 
+
+
 body {
-	font-family: "Roboto", sans-serif;
-	src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
-	}
-p
-{	
-font-family: "Roboto", sans-serif;
-src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
+ font-family: "Roboto", sans-serif;
+ font-weight: 300;
+	 background-color:#FAFAFD;
 }
+
+
+
+  <!-- body
+    {
+ font-family: Verdana , sans-serif; 
+    }
+	-->
 
 
     
@@ -64,7 +71,6 @@ src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
     float:left;
     margin-top:24px;
     margin-bottom:24px;
-					font-family: "Roboto", sans-serif; 	src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
     }
  
 .contentcolumn
@@ -78,7 +84,6 @@ src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
     letter-spacing: normal;
     counter-reset: sectioncounter;
     counter-reset: subsectioncounter;
-					font-family: "Roboto", sans-serif; 	src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
     }
 .pagetopicheader
     {
@@ -106,7 +111,6 @@ src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
     .TOCLevel2 { font-size: 16px; margin-left: 24px; }
     .TOCLevel3 { display:none; }
     .TOCSectNum:after { content: "  "; }
-	font-family: "Roboto", sans-serif; 	src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
 
 h1
     {
@@ -116,7 +120,6 @@ h1
     font-size: 24px;
     margin-top:48px;
     margin-bottom:36px;
-	font-family: "Roboto", sans-serif; 	src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
     }
 h2
     {
@@ -126,7 +129,6 @@ h2
     font-size: 21px;
     margin-top:36px;
     margin-bottom:24px;  
-	font-family: "Roboto", sans-serif; 	src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
     }
 h3
     {
@@ -135,7 +137,6 @@ h3
     font-size:18px;
     margin-right:14px;
     display:inline;
-	font-family: "Roboto", sans-serif; 	src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
     }
     
 .abstracthead
@@ -155,7 +156,6 @@ h3
 	}
 ul.publications
 	{	
-		
 	 list-style-image: url("bullet-icon.png");
 	 margin-top:0px;
 	 margin-left: 30px;
@@ -175,10 +175,6 @@ ul.publications li
 	margin-bottom: 15px;
 	padding-left: 36px;
     text-indent: -36px;
-
-	font-family: "Roboto", sans-serif;
-	src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
- 	font-weight: 300;
 	}
 
 
@@ -189,11 +185,7 @@ ul.publications li
 	margin-bottom: 20px;
 	padding-left: 75px;
 	padding-right: 75px;
-
-		
-	font-family: "Roboto", sans-serif;
-	src: 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
-	}
+    	}
 
 
 
