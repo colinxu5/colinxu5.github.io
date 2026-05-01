@@ -1,274 +1,321 @@
-<html lang="en-US">
-	
-<!-- Heading -->
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta http-equiv="Content-Language" content="en_US" > 
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>       Colin Xu     </title>
-    <link href="maincss.css" rel="stylesheet"  type='text/css'>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
-	<style>
-		body {
-  		font-family: "Open Sans", sans-serif;
-		}
-		p {
-  		font-family: "Open Sans", sans-serif;
-		}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colin Xu — University of Idaho</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: 'IBM Plex Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 15px;
+            line-height: 1.55;
+            color: #222;
+            background: #fff;
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 2.5rem 1.5rem 3rem;
+        }
+        a { color: #1a5276; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        header { margin-bottom: 1.8rem; padding-bottom: 1rem; border-bottom: 2px solid #222; }
+        header h1 { font-size: 1.6rem; font-weight: 600; margin-bottom: 0.15rem; }
+        header .subtitle { font-size: 0.88rem; color: #555; font-weight: 400; }
+        nav { margin-top: 0.6rem; font-size: 0.85rem; }
+        nav a { margin-right: 1.2rem; }
+
+        h2 {
+            font-size: 1.05rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            margin: 1.8rem 0 0.6rem;
+            padding-bottom: 0.25rem;
+            border-bottom: 1px solid #ccc;
+        }
+        h3 {
+            font-size: 0.95rem;
+            font-weight: 600;
+            margin: 1.2rem 0 0.4rem;
+            color: #444;
+        }
+
+        .bio { margin-bottom: 0.8rem; font-size: 0.93rem; line-height: 1.6; }
+
+        .recruiting {
+            background: #f7f4ee;
+            border: 1px solid #ddd5c5;
+            padding: 0.8rem 1rem;
+            margin: 1rem 0;
+            font-size: 0.88rem;
+            line-height: 1.55;
+        }
+
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            font-size: 0.88rem;
+        }
+        .two-col address { font-style: normal; line-height: 1.65; }
+        .edu-line { margin-bottom: 0.15rem; }
+        .edu-line .yr { display: inline-block; width: 3rem; color: #888; font-weight: 500; font-size: 0.82rem; }
+
+        .pub { margin-bottom: 0.6rem; font-size: 0.86rem; line-height: 1.5; }
+        .pub .year { color: #888; font-size: 0.8rem; }
+        .pub .me { font-weight: 600; }
+        .pub em { font-style: italic; }
+        .pub .links { font-size: 0.78rem; }
+        .pub .links a { margin-right: 0.5rem; }
+
+        .media-item { margin-bottom: 0.5rem; font-size: 0.86rem; line-height: 1.45; }
+        .media-item .outlet { color: #888; font-size: 0.78rem; }
+
+        footer {
+            margin-top: 2.5rem;
+            padding-top: 0.8rem;
+            border-top: 1px solid #ccc;
+            font-size: 0.78rem;
+            color: #999;
+        }
+
+        @media (max-width: 550px) {
+            body { padding: 1.5rem 1rem 2rem; }
+            .two-col { grid-template-columns: 1fr; gap: 0.8rem; }
+            header h1 { font-size: 1.35rem; }
+        }
+    </style>
 </head>
-	
+<body>
 
-<body>		
-    <div class='contentcolumn'>
-	    <div style="text-align:center;font-size:36px;margin-top:24px;">
-            Colin Xu
-        </div>
-        <div style="line-height:50%"><br></div>
-	    <div style='text-align:center;font-size:24px;margin-bottom:24px;'>
-		<!-- Assistant Professor     <br> -->
-		University of Idaho
-            
- </div> <div style='height:2px;width:100%;background:black;margin-top:24px;margin-bottom:24px;'></div>
-		
-	    <div style='text-align:center;font-size:21px; font-weight:bold'>
-		<a href='#contact' class='generallink'>	Contact	</a> 
-		<span style='width:24px;display: inline-block;'></span> 
-		<a href='#cv' class='generallink'> 	CV	</a>
-		<span style='width:24px;display: inline-block;'></span>
-		<a href='#researchpublications' class='generallink'>	Research </a>
-		<span style='width:24px;display: inline-block;'></span>
-		<a href='#outreach' class='generallink'>	Outreach	</a>
-		<span style='width:24px;display: inline-block;'></span>
-		<!-- <a href='#teaching' class='generallink'>	Teaching </a> 
-		<span style='width:24px;display: inline-block;'></span> -->
+<header>
+    <h1>Colin Xu</h1>
+    <div class="subtitle">Assistant Professor · Department of Psychology &amp; Communication · University of Idaho</div>
+    <nav>
+        <a href="#contact">Contact</a>
+        <a href="#cv">CV</a>
+        <a href="#research">Research</a>
+        <a href="#outreach">Outreach</a>
+    </nav>
+</header>
 
-	    </div>
-	    <div style='height:2px;width:100%;background:black;clear:both;margin-top:24px;'></div>
+<p class="bio">
+    I am an Assistant Professor of Psychology at the University of Idaho.
+    My research uses statistical modeling to better understand psychological disorders, especially predictive modeling of psychiatric treatment outcomes, aggregation of epidemiological and clinical trial data, and modeling processes of change over the course of treatments for depression.
+</p>
 
-<!-- Bio -->
+<div class="recruiting">
+    <strong>Recruiting (Fall 2025):</strong> I am recruiting 3 fully-funded graduate students and 2 postdoctoral fellows for two Department of Defense funded projects: (A) statistical modeling of PTSD risk, and (B) modeling risk of negative health outcomes in military servicemember families.
+    Positions can be housed in the
+    <a href="https://www.uidaho.edu/academics/degree-finder/experimental-psychology-phd">Dept. of Psychology</a>,
+    <a href="https://www.uidaho.edu/science/academics/bioinformatics-computational-biology">Bioinformatics &amp; Computational Biology</a>, or
+    <a href="https://www.uidaho.edu/academics/degree-finder/family-consumer-sciences-ms">School of Family &amp; Consumer Sciences</a>.
+</div>
 
-		<br>
-	I am an Assistant Professor of Psychology at the Department of Psychology & Communication at the University of Idaho.
+<h2 id="contact">Contact &amp; Education</h2>
+<div class="two-col">
+    <div>
+        <address>
+            Department of Psychology and Communication<br>
+            875 Perimeter Drive, MS 3043<br>
+            University of Idaho<br>
+            Moscow, Idaho 83844<br>
+            <a href="mailto:colinxu@uidaho.edu">colinxu@uidaho.edu</a>
+        </address>
+    </div>
+    <div>
+        <div class="edu-line"><span class="yr">2022</span> Ph.D., University of Pennsylvania</div>
+        <div class="edu-line"><span class="yr">2017</span> M.A., University of Pennsylvania</div>
+        <div class="edu-line"><span class="yr">2015</span> B.A., University of British Columbia</div>
+    </div>
+</div>
 
-	My main areas of research are on using statistical modeling to better understand psychological disorders, especially on the predictive modeling of psychiatric treatment outcomes, aggregation of epidemiological and clinical trial data, and modeling the processes of change over the course of treatments for depression.
+<h2 id="cv">Curriculum Vitae</h2>
+<p style="font-size:0.88rem;"><a href="https://colinxu5.github.io/cv_RECENT.pdf">Download CV (PDF)</a></p>
 
+<h2 id="research">Research &amp; Publications</h2>
+<p style="font-size:0.88rem; margin-bottom:0.6rem;">
+    See also: <a href="https://scholar.google.com/citations?user=S0mvcX4AAAAJ&hl=en">Google Scholar</a>.
+    Funding: DoD, NIH, APF.
+</p>
 
-		
+<h3>Journal Articles</h3>
 
+<div class="pub">
+    <span class="year">(2026)</span>
+    Hao, Y., <span class="me">Xu, C.</span>, Kweon, H., &amp; Farah, M. J. What is the relation between major depressive disorder and amygdala reactivity? <em>Journal of Affective Disorders</em>.
+    <span class="links"><a href="https://doi.org/10.1016/j.jad.2026.121602">doi</a> <a href="https://colinxu5.github.io/publications/Hao et al 2026 - What is the relation between major depressive disorder and amygdala reactivity.pdf">pdf</a></span>
+</div>
 
-<!-- Announcements -->
+<div class="pub">
+    <span class="year">(2026)</span>
+    <span class="me">Xu, C.</span>, Kim, C., Candido, K., Salerni, I., &amp; Ruseva, A. Imposterism and perfectionism: Imposterism predicts rigid and self-critical perfectionism, but not narcissistic perfectionism. <em>Personality and Individual Differences</em>, 253, 113628.
+    <span class="links"><a href="https://doi.org/10.1016/j.paid.2025.113628">doi</a> <a href="https://colinxu5.github.io/publications/Xu et al 2026 - Imposterism and perfectionism.pdf">pdf</a></span>
+</div>
 
+<div class="pub">
+    <span class="year">(2025)</span>
+    <span class="me">Xu, C.</span>, Naudet, F., Kim, T. T., Hengartner, M. P., Horowitz, M. A., Kirsch, I., Moncrieff, J., Pigott, E., &amp; Plöderl, M. Results of finite mixture models remain inconsistent. <em>Journal of Clinical Epidemiology</em>.
+    <span class="links"><a href="https://doi.org/10.1016/j.jclinepi.2025.112022">doi</a></span>
+</div>
 
+<div class="pub">
+    <span class="year">(2025)</span>
+    Kim, T. &amp; <span class="me">Xu, C.</span> Do your homework: CT homework compliance predicts next-session depression severity improvement. <em>Cognitive Therapy and Research</em>.
+    <span class="links"><a href="https://doi.org/10.1007/s10608-025-10665-3">doi</a> <a href="https://colinxu5.github.io/publications/Kim Xu 2025 - Cognitive Therapy Homework Compliance.pdf">pdf</a></span>
+</div>
 
-<br><p class="announcements"> <i><b>
-		As of Fall 2025, I am currently recruiting 3 fully-funded graduate students and 2 postdoctoral fellows for two Department of Defense funded research projects: (A) one project on the statistical modeling of PTSD risk, and (B) another project on modeling risk of negative health outcomes in military servicemember families.
+<div class="pub">
+    <span class="year">(2025)</span>
+    <span class="me">Xu, C.</span>, Naudet, F., Kim, T. T., Hengartner, M. P., Horowitz, M. A., Kirsch, I., Moncrieff, J., Pigott, E., &amp; Plöderl, M. Large responses to antidepressants or methodological artifacts? A secondary analysis of STAR*D. <em>Journal of Clinical Epidemiology</em>, 187, 111943.
+    <span class="links"><a href="https://doi.org/10.1016/j.jclinepi.2025.111943">doi</a> <a href="https://colinxu5.github.io/publications/Xu et al 2025 - Large responses to antidepressants or methodological artifacts.pdf">pdf</a></span>
+</div>
 
-		<br>
-		<br>
-	
-		These graduate student positions have the flexibility of being housed as a fully-funded MS or PhD in the <a class='generallink' href="https://www.uidaho.edu/academics/degree-finder/experimental-psychology-phd">  Department of Psychology </a>
-		, the <a class='generallink' href="https://www.uidaho.edu/science/academics/bioinformatics-computational-biology">  Bioinformatics and Computational Biology program </a>
-		, or the  <a class='generallink' href="https://www.uidaho.edu/academics/degree-finder/family-consumer-sciences-ms">  the School of Family and Consumer Sciences</a>
-		.
-</b></i> </p>
-<br>
-		
-		
-<!-- Contact -->
-	    <h2>
-		<a id='contact'>Contact </a><IMG SRC="headshot.jpg" align = right hspace=10 width="300" height="300"><P>
-	    </h2>
-			Colin Xu <br>
-			Department of Psychology and Communication<br>
-		    875 Perimeter Drive, MS 3043 <br>
-		    University of Idaho <br>
-		    Moscow, Idaho 83844 <br>
-		<br>
-			<p> Email: <a class='generallink' href="mailto:colinxu@uidaho.edu">colinxu@uidaho.edu</a></p>
+<div class="pub">
+    <span class="year">(2025)</span>
+    Kim, T., <span class="me">Xu, C.</span>, &amp; Amsterdam, J. Comparison of effectiveness and side effects of selegiline transdermal system versus oral MAOIs and TCAs for treatment-resistant depression. <em>Journal of Affective Disorders</em>, 376, 47–51.
+    <span class="links"><a href="https://doi.org/10.1016/j.jad.2025.02.003">doi</a> <a href="https://colinxu5.github.io/publications/Kim et al 2025 - Comparison of effectiveness and side effects of selegiline transdermal.pdf">pdf</a></span>
+</div>
 
-<!-- Education -->
-		<h2>
-			Education 		
-		</h2>
-		Ph.D., University of Pennsylvania, 2022 <br>
-		M.A., University of Pennsylvania, 2017 <br>
-		B.A., University of British Columbia, 2015 		<br>
+<div class="pub">
+    <span class="year">(2024)</span>
+    Kim, T. &amp; <span class="me">Xu, C.</span> Not all types of depressed patients who persist with their antidepressant treatment improve in side effect complaints. <em>Acta Psychiatrica Scandinavica</em>, 151(2), 152–162.
+    <span class="links"><a href="https://doi.org/10.1111/acps.13764">doi</a> <a href="https://colinxu5.github.io/publications/Kim Xu 2024 -%20 Not all types of depressed patients improve in side effect complaints.pdf">pdf</a></span>
+</div>
 
+<div class="pub">
+    <span class="year">(2023)</span>
+    Amsterdam, J., &amp; <span class="me">Xu, C.</span> Multi-trial, aggregated, individual participant data mega-analysis of short-term antidepressant versus mood stabilizer monotherapy of bipolar type II MDE. <em>Bipolar Disorders</em>, 26(3), 255–264.
+    <span class="links"><a href="https://doi.org/10.1111/bdi.13378">doi</a> <a href="https://colinxu5.github.io/publications/Amsterdam%2C Xu 2023 - Multi-trial aggregated individual participant data mega-analysis.pdf">pdf</a></span>
+</div>
 
-<!-- CV -->
-		<h2> 
-		<a id='cv'> Curriculum Vitae    </a></h2>
-		<p></p><a class='generallink' href='cv_RECENT.pdf'> Curriculum Vitae (PDF)</a>  </p>
-		
-		<br>
-		
-		<iframe
-		src="https://colinxu5.github.io/cv_RECENT.pdf"
-  		width="100%"
-		height="600px"
-		style="border: none;"
-		></iframe>
-		<br>
-	
-		
+<div class="pub">
+    <span class="year">(2023)</span>
+    <span class="me">Xu, C.</span>, Miao, L., Turner, D., &amp; DeRubeis, R. Urbanicity and depression: A global meta-analysis. <em>Journal of Affective Disorders</em>, 340, 299–311.
+    <span class="links"><a href="https://doi.org/10.1016/j.jad.2023.08.030">doi</a> <a href="https://colinxu5.github.io/publications/Xu et al 2023 - Urbanicity and depression A global meta-analysis.pdf">pdf</a></span>
+</div>
 
-<!-- Research -->
-		<h2>
-		<a id='researchpublications'>Research </a>
-		</h2>
+<div class="pub">
+    <span class="year">(2023)</span>
+    Pigott, H. E., Kim, T., <span class="me">Xu, C.</span>, Kirsch, I., &amp; Amsterdam, J. What are the treatment remission, response and extent of improvement rates after up to four trials of antidepressant therapies in real-world depressed patients? A reanalysis of the STAR*D study. <em>BMJ Open</em>, 13(7), e063095.
+    <span class="links"><a href="http://doi.org/10.1136/bmjopen-2022-063095">doi</a> <a href="https://colinxu5.github.io/publications/Pigott et al 2023 - A reanalysis of STARD.pdf">pdf</a></span>
+</div>
 
-		For a current list of publications, please see my <a class='generallink' href="https://scholar.google.com/citations?user=S0mvcX4AAAAJ&hl=en" target='_blank'>Google Scholar Profile</a><br>
+<div class="pub">
+    <span class="year">(2022)</span>
+    Bredemeier, K., Larsen, S., … <span class="me">Xu, C.</span>, … Thase, M. A comparison of prolonged exposure therapy, pharmacotherapy, and their combination for PTSD. <em>Contemporary Clinical Trials</em>, 119, 106850.
+    <span class="links"><a href="https://doi.org/10.1016/j.cct.2022.106850">doi</a> <a href="https://colinxu5.github.io/publications/Bredemeier et al. 2022 - A comparison of prolonged exposure therapy%2C pharmacotherapy%2C and their.pdf">pdf</a></span>
+</div>
 
-		<br>My research has received funding from the Department of Defense (DoD), NIH, and American Psychological Foundation (APF).
+<div class="pub">
+    <span class="year">(2022)</span>
+    Kim, T. T., <span class="me">Xu, C.</span>, &amp; DeRubeis, R. J. Mapping Female Patients' Judgments of Satisfaction to Hypothetical Changes in Depression Symptom Severity. <em>Behavior Therapy</em>, 53(2), 392–399.
+    <span class="links"><a href="https://doi.org/10.1016/j.beth.2021.10.003">doi</a> <a href="https://colinxu5.github.io/publications/Kim et al 2021 - Mapping Female Patients' Judgments of Satisfaction to Hypothetical Changes in Depression Symptom Severity.pdf">pdf</a></span>
+</div>
 
-	<br>
-	<br>
+<div class="pub">
+    <span class="year">(2022)</span>
+    Kim, T. T., <span class="me">Xu, C.</span>, &amp; DeRubeis, R. J. Patients' judgments of the importance of treatment-induced reductions in symptoms of depression. <em>Psychotherapy Research</em>, 32(3), 404–413.
+    <span class="links"><a href="https://doi.org/10.1080/10503307.2021.1938731">doi</a> <a href="https://colinxu5.github.io/publications/Kim et al 2021 - Patients' judgments of the importance of.pdf">pdf</a></span>
+</div>
 
+<div class="pub">
+    <span class="year">(2021)</span>
+    <span class="me">Xu, C.</span>, Gelberg, H., &amp; DeRubeis, R. J. Emotion regulation strategy correlates with discrete state emotion in major depression. <em>Anxiety, Stress, &amp; Coping</em>, 1–12.
+    <span class="links"><a href="https://doi.org/10.1080/10615806.2021.2015578">doi</a> <a href="https://colinxu5.github.io/publications/Xu%2C Gelberg%2C DeRubeis%2C 2021 - Emotion regulation strategy correlates with.pdf">pdf</a></span>
+</div>
 
+<div class="pub">
+    <span class="year">(2021)</span>
+    Khazanov, G. K., <span class="me">Xu, C.</span>, Hollon, S. D., DeRubeis, R. J., &amp; Thase, M. E. Adding cognitive therapy to antidepressant medications decreases suicidal ideation. <em>Journal of Affective Disorders</em>, 281, 183–191.
+    <span class="links"><a href="https://doi.org/10.1016/j.jad.2020.12.032">doi</a> <a href="https://colinxu5.github.io/publications/Khazanov et al 2020 - Adding cognitive therapy to antidepressant medications decreases ssuicidal ideation.pdf">pdf</a></span>
+</div>
 
- <h3> Journal Articles </h3>
+<div class="pub">
+    <span class="year">(2020)</span>
+    DeRubeis, R. J., Zajecka, J., Shelton, R. C., Amsterdam, J. D., Fawcett, J., <span class="me">Xu, C.</span>, … Hollon, S. D. Prevention of recurrence after recovery from a major depressive episode with antidepressant medication alone or in combination with CBT. <em>JAMA Psychiatry</em>, 77(3), 237–245.
+    <span class="links"><a href="https://doi.org/10.1001/jamapsychiatry.2019.3900">doi</a> <a href="https://colinxu5.github.io/publications/DeRubeis et al 2019 - JAMA Psychiatry.pdf">pdf</a></span>
+</div>
 
-	<br>
-	
-	<br>
-	<p class="publications">
-		 Hao, Y., Xu, C., Kweon, H., & Farah, M. J. (2026). What is the relation between major depressive disorder and amygdala reactivity? Journal of Affective Disorders. https://doi.org/10.1016/j.jad.2026.121602
-		<a class='generallink' href="/publications/Hao et al 2026 - What is the relation between major depressive disorder and amygdala reactivity.pdf"> PDF </a>	
-	</p><p class="publications">
-	<p class="publications">
-		 Xu, C., Kim, C., Candido, K., Salerni, I., Ruseva, A. (2026). Imposterism and perfectionism: Imposterism predicts rigid and self-critical perfectionism, but not narcissistic perfectionism. Personality and Individual Differences, 253, 113628. https://doi.org/10.1016/j.paid.2025.113628
-		<a class='generallink' href="/publications/Xu et al 2026 - Imposterism and perfectionism.pdf"> PDF </a>	
-	</p><p class="publications">
-	Xu, C., Naudet, F., Kim, T. T., Hengartner, M. P., Horowitz, M. A., Kirsch, I., Moncrieff, J., Pigott, E., & Plöderl, M. (2025). Results of finite mixture models remain inconsistent. Journal of Clinical Epidemiology. https://doi.org/10.1016/j.jclinepi.2025.112022
-	 <a class='generallink' href=""> PDF </a>	
-	</p><p class="publications">
-	<p class="publications">
-	Kim, T. & Xu, C. (2025). Do your homework: CT homework compliance predicts next-session depression severity improvement. Cognitive Therapy and Research.  https://doi.org/10.1007/s10608-025-10665-3
-	 <a class='generallink' href="/publications/Kim Xu 2025 - Cognitive Therapy Homework Compliance.pdf"> PDF </a>	
-	</p><p class="publications">
-	Xu, C., Naudet, F., Kim, T. T., Hengartner, M. P., Horowitz, M. A., Kirsch, I., Moncrieff, J., Pigott, E., & Plöderl, M. (2025). Large responses to antidepressants or methodological artifacts? A secondary analysis of STAR*D, a single-arm, open-label, non-industry antidepressant trial. Journal of Clinical Epidemiology, 187, 111943. https://doi.org/10.1016/j.jclinepi.2025.111943
-	 <a class='generallink' href="publications/Xu et al 2025 - Large responses to antidepressants or methodological artifacts.pdf"> PDF </a>	
-	</p><p class="publications">
-	Kim, T., Xu, C., Amsterdam, J. (2025). Comparison of effectiveness and side effects of selegiline transdermal system versus oral monoamine oxidase inhibitors and tricyclic antidepressants for treatment-resistant depression. Journal of Affective Disorders, 376, 47-51 https://doi.org/10.1016/j.jad.2025.02.003
-	 <a class='generallink' href="publications/Kim et al 2025 - Comparison of effectiveness and side effects of selegiline transdermal.pdf"> PDF </a>	
-	</p> <p class="publications">
-		Kim, T. & Xu, C. (2024). Not all types of depressed patients who persist with their antidepressant treatment improve in side effect complaints: A comparison of treatment completers and dropouts in the STAR*D trial. Acta Psychiatrica Scandinavica, 151(2): 152-162. https://doi.org/10.1111/acps.13764
-		 <a class='generallink' href="publications/Kim Xu 2024 -%20 Not all types of depressed patients improve in side effect complaints.pdf"> PDF </a>	
-	</p> <p class="publications">
-		Amsterdam, J., & Xu, C. (2023). Multi-trial, aggregated, individual participant data mega-analysis of short-term antidepressant versus mood stabilizer monotherapy of bipolar type II major depressive episode. Bipolar Disorders., 26(3), 255-264. https://doi.org/10.1111/bdi.13378 
-		<a class='generallink' href="publications/Amsterdam%2C Xu 2023 - Multi-trial aggregated individual participant data mega-analysis.pdf"> PDF </a>	
-	</p> <p class="publications">	
-		Xu, C., Miao, L., Turner, D., & DeRubeis, R. (2023). Urbanicity and depression: A global meta-analysis. Journal of Affective Disorders, 340, 299-311. https://doi.org/10.1016/j.jad.2023.08.030 
-		<a class='generallink' href="publications/Xu et al 2023 - Urbanicity and depression A global meta-analysis.pdf"> PDF </a>	
-	</p> <p class="publications">		
-		Pigott, H. E., Kim, T., Xu, C., Kirsch, I., & Amsterdam, J. (2023). What are the treatment remission, response and extent of improvement rates after up to four trials of antidepressant therapies in real-world depressed patients? A reanalysis of the STAR* D study's patient-level data with fidelity to the original research protocol. BMJ open, 13(7), e063095. http://doi.org/10.1136/bmjopen-2022-063095 
-		<a class='generallink' href="publications/Pigott et al 2023 - A reanalysis of STARD.pdf"> PDF </a>	
-	</p> <p class="publications">
-		Bredemeier, K., Larsen, S., Shivakumar, G., Grubbs, K., McLean, C., Tress, C., Rosenfield, D., DeRubeis, R., Xu, C., Foa, E., Morland, L., Pai, A., Tsao, C., Crawford, J., Weitz, E., Mayinja, L., Feler, B., Wachsman, T., Lupo, M., Hooper, V., … Thase, M. (2022). A comparison of prolonged exposure therapy, pharmacotherapy, and their combination for PTSD: What works best and for whom; study protocol for a randomized trial. Contemporary Clinical Trials, 119, 106850. https://doi.org/10.1016/j.cct.2022.106850 
-		<a class='generallink' href="publications/Bredemeier et al. 2022 - A comparison of prolonged exposure therapy%2C pharmacotherapy%2C and their.pdf"> PDF </a>	
-	</p> <p class="publications">
-		Kim, T. T., Xu, C., & DeRubeis, R. J. (2022). Mapping Female Patients’ Judgments of Satisfaction to Hypothetical Changes in Depression Symptom Severity. Behavior Therapy, 53(2), 392-399. https://doi.org/10.1016/j.beth.2021.10.003 
-		<a class='generallink' href="publications/Kim et al 2021 - Mapping Female Patients' Judgments of Satisfaction to Hypothetical Changes in Depression Symptom Severity.pdf"> PDF </a>	
-	</p> <p class="publications">
-		Kim, T. T., Xu, C., & Derubeis, R. J. (2022). Patients’ judgments of the importance of treatment-induced reductions in symptoms of depression: The role of specific symptoms, magnitudes of change, and post-treatment levels. Psychotherapy Research, 32(3), 404-413. https://doi.org/10.1080/10503307.2021.1938731 
-		<a class='generallink' href="publications/Kim et al 2021 - Patients’ judgments of the importance of.pdf"> PDF </a>	
-	</p> <p class="publications">
-		Xu, C., Gelberg, H., & DeRubeis, R. J. (2021). Emotion regulation strategy correlates with discrete state emotion in major depression. Anxiety, Stress, & Coping, 1-12. https://doi.org/10.1080/10615806.2021.2015578 
-		<a class='generallink' href="publications/Xu%2C Gelberg%2C DeRubeis%2C 2021 - Emotion regulation strategy correlates with.pdf"> PDF </a>	
-	</p> <p class="publications">
-		Khazanov, G. K., Xu, C., Hollon, S. D., DeRubeis, R. J., & Thase, M. E. (2021). Adding cognitive therapy to antidepressant medications decreases suicidal ideation. Journal of Affective Disorders, 281, 183-191. https://doi.org/10.1016/j.jad.2020.12.032 
-		<a class='generallink' href="publications/Khazanov et al 2020 - Adding cognitive therapy to antidepressant medications decreases ssuicidal ideation.pdf"> PDF </a>	
-	</p> <p class="publications">
-		DeRubeis, R. J., Zajecka, J., Shelton, R. C., Amsterdam, J. D., Fawcett, J., Xu, C., ... & Hollon, S. D. (2020). Prevention of recurrence after recovery from a major depressive episode with antidepressant medication alone or in combination with cognitive behavioral therapy: a Phase 2 randomized clinical trial. JAMA Psychiatry, 77(3), 237-245. https://doi.org/10.1001/jamapsychiatry.2019.3900 
-		<a class='generallink' href="publications/DeRubeis et al 2019 - JAMA Psychiatry.pdf"> PDF </a>	
-	</p> <p class="publications">
-		Dunn, B. D., German, R. E., Khazanov, G., Xu, C., Hollon, S. D., & DeRubeis, R. J. (2020). Changes in positive and negative affect during pharmacological treatment and cognitive therapy for major depressive disorder: A secondary analysis of two randomized controlled trials. Clinical Psychological Science, 8(1), 36-51. https://doi.org/10.1177/2167702619863427 
-		<a class='generallink' href="publications/Dunn et al 2019 - Changes in Positive and Negative Affect .pdf"> PDF </a>	
-	</p> <p class="publications">
-		Khazanov, G. K., Xu, C., Dunn, B. D., Cohen, Z. D., DeRubeis, R. J., & Hollon, S. D. (2020). Distress and anhedonia as predictors of depression treatment outcome: a secondary analysis of a randomized clinical trial. Behaviour Research and Therapy, 125, 103507. https://doi.org/10.1016/j.brat.2019.103507 
-		<a class='generallink href="publications/Khazanov 2019 - Distress and anhedonia as predictors of depression treatment outcome A secondary analysis of a randomized clinical trial.pdf"> PDF </a>	
-	</p> <p class="publications">
-		Kim, T., Dufour, S., Xu, C., Cohen, Z., Sylvia, L., Deckersbach, T., DeRubeis, R., Nierenberg, A. Predictive modeling for response to lithium and quetiapine in bipolar disorder. (2019). Bipolar Disorders 21, 428–436. https://doi.org/10.1111/bdi.12752 
-		<a class='generallink href="publications/Kim et al 2019 - Predictive modeling for response to lithium and quetiapine in.pdf"> PDF </a>	
-	</p> <p class="publications">
-		Kim, T., Xu, C., Amsterdam, J. D. (2019). Relative effectiveness of tricyclic antidepressant versus monoamine oxidase inhibitor monotherapy for treatment-resistant depression. Journal of Affective Disorders 250, 199-203. https://doi.org/10.1016/j.jad.2019.03.028 
-		<a class='generallink' href="publications/Kim%2C Xu%2C Amsterdam%2C 2018 - Relative effectiveness of tricyclic antidepressant versus monoamine oxidase.pdf"> PDF </a>	
-	</p> 
+<div class="pub">
+    <span class="year">(2020)</span>
+    Dunn, B. D., German, R. E., Khazanov, G., <span class="me">Xu, C.</span>, Hollon, S. D., &amp; DeRubeis, R. J. Changes in positive and negative affect during pharmacological treatment and cognitive therapy for MDD. <em>Clinical Psychological Science</em>, 8(1), 36–51.
+    <span class="links"><a href="https://doi.org/10.1177/2167702619863427">doi</a> <a href="https://colinxu5.github.io/publications/Dunn et al 2019 - Changes in Positive and Negative Affect .pdf">pdf</a></span>
+</div>
 
-	
-	<br>
-	<h3> Book Chapters </h3>
-	<br>
-	<br> <p class="publications">
-		Fung, K., Xu, C., Glazier, B. L., Parsons, C. A., Alden, L. E. (2016). Research in Clinical Psychology: Social Exclusion in Clinical Samples. P. Riva & J. Eck (Eds.) Social Exclusion: Psychological Approaches to Understanding and Reducing Its Impact. Springer. https://doi.org/10.1007/978-3-319-33033-4_8  		
- 		<a class='generallink' href="publications/Fung et al. 2016 - Social exclusion and psychological disorders-173-192.pdf"> PDF </a>	
+<div class="pub">
+    <span class="year">(2020)</span>
+    Khazanov, G. K., <span class="me">Xu, C.</span>, Dunn, B. D., Cohen, Z. D., DeRubeis, R. J., &amp; Hollon, S. D. Distress and anhedonia as predictors of depression treatment outcome. <em>Behaviour Research and Therapy</em>, 125, 103507.
+    <span class="links"><a href="https://doi.org/10.1016/j.brat.2019.103507">doi</a> <a href="https://colinxu5.github.io/publications/Kim et al 2019 - Predictive modeling for response to lithium and quetiapine in.pdf">pdf</a></span>
+</div>
 
-	</p> 
+<div class="pub">
+    <span class="year">(2019)</span>
+    Kim, T., <span class="me">Xu, C.</span>, &amp; Amsterdam, J. D. Relative effectiveness of tricyclic antidepressant versus monoamine oxidase inhibitor monotherapy for treatment-resistant depression. <em>Journal of Affective Disorders</em>, 250, 199–203.
+    <span class="links"><a href="https://doi.org/10.1016/j.jad.2019.03.028">doi</a> <a href="https://colinxu5.github.io/publications/Kim%2C Xu%2C Amsterdam%2C 2018 - Relative effectiveness of tricyclic antidepressant versus monoamine oxidase.pdf">pdf</a></span>
+</div>
 
-	<br>
-			
-	<h2><a id='outreach'> Research Outreach / Media Coverage  </a></h2>
-	
-	<br>
-		<p class="publications">
-		<a class='generallink' href=""> </a>	
-	</p>
-		
+<h3>Book Chapters</h3>
 
-	<p class="publications">
-		Dolan, Eric. Imposter syndrome is strongly linked to these two types of perfectionism. Psypost. January 25, 2026
-		<a class='generallink' href="https://www.psypost.org/imposter-syndrome-is-strongly-linked-to-these-two-types-of-perfectionism/"> https://www.psypost.org/imposter-syndrome-is-strongly-linked-to-these-two-types-of-perfectionism/ </a>	
-	</p>
-		<p class="publications">
-	CBS 2 Idaho News. University of Idaho receives $1.33M for PTSD research. December 2025. 
-		<a class='generallink' href="https://idahonews.com/news/local/university-of-idaho-receives-133m-for-ptsd-research"> https://idahonews.com/news/local/university-of-idaho-receives-133m-for-ptsd-research </a>	
-	</p> <p class="publications">
-	Xu, Colin & Kim, Thomas. No, Your Patients Are Not Wrong: Sometimes Antidepressant Side Effects Do Not Get Better. Cover article in Psychiatric Times, 42(4). April 2025. 
-		<a class='generallink' href="https://www.psychiatrictimes.com/view/no-your-patients-are-not-wrong-sometimes-antidepressant-side-effects-do-not-get-better"> https://www.psychiatrictimes.com/view/no-your-patients-are-not-wrong-sometimes-antidepressant-side-effects-do-not-get-better </a>	
-	</p> <p class="publications">
-	Dolan, Eric. Study challenges assumption of universal improvement in antidepressant side effects. Psypost. November 19, 2024.
-		<a class='generallink' href="https://www.psypost.org/study-challenges-assumption-of-universal-improvement-in-antidepressant-side-effects/"> https://www.psypost.org/study-challenges-assumption-of-universal-improvement-in-antidepressant-side-effects/ </a>	
-	</p> <p class="publications">
-	Pigott, E., Kim, T., Xu, C., Kirsch, I., Amsterdam, J. “STAR*D’s cumulative remission rate and why it still matters.” Cover article in Psychiatric Times, 41 (3). March 2024.
-		<a class='generallink' href="https://www.psychiatrictimes.com/view/star-d-s-cumulative-remission-rate-and-why-it-still-matters"> https://www.psychiatrictimes.com/view/star-d-s-cumulative-remission-rate-and-why-it-still-matters </a>	
-	</p> <p class="publications">
+<div class="pub">
+    <span class="year">(2016)</span>
+    Fung, K., <span class="me">Xu, C.</span>, Glazier, B. L., Parsons, C. A., &amp; Alden, L. E. Social Exclusion in Clinical Samples. In P. Riva &amp; J. Eck (Eds.) <em>Social Exclusion: Psychological Approaches to Understanding and Reducing Its Impact</em>. Springer.
+    <span class="links"><a href="https://doi.org/10.1007/978-3-319-33033-4_8">doi</a> <a href="https://colinxu5.github.io/publications/Fung et al. 2016 - Social exclusion and psychological disorders-173-192.pdf">pdf</a></span>
+</div>
 
-	Miller, John J. “Exploring the STAR*D Controversy”. Cover article in Psychiatric Times, 41 (3). March 2024. 
-		<a class='generallink' href="https://www.psychiatrictimes.com/view/exploring-the-star-d-controversy"> https://www.psychiatrictimes.com/view/exploring-the-star-d-controversy  </a>	
-	</p> <p class="publications">
+<h2 id="outreach">Research Outreach &amp; Media</h2>
 
-	Miller, John J. “STAR*D Dethroned?”. Cover article in Psychiatric Times, 40 (12). December, 2023.
-		<a class='generallink' href="https://www.psychiatrictimes.com/view/star-d-dethroned"> https://www.psychiatrictimes.com/view/star-d-dethroned
- </a>	
-	</p> <p class="publications">
+<div class="media-item">
+    <span class="outlet">PsyPost · Jan 2026</span><br>
+    <a href="https://www.psypost.org/imposter-syndrome-is-strongly-linked-to-these-two-types-of-perfectionism/">Imposter syndrome is strongly linked to these two types of perfectionism</a>
+</div>
 
-	Moser, Eric. “Five takeaways on urbanicity and depression research.” Penn Today. October 25th, 2023.
-	https://penntoday.upenn.edu/news/psychology-five-takeaways-urbanicity-and-depression-research
-		<a class='generallink' href="https://penntoday.upenn.edu/news/psychology-five-takeaways-urbanicity-and-depression-research"> https://penntoday.upenn.edu/news/psychology-five-takeaways-urbanicity-and-depression-research </a>	
-	</p> <p class="publications">
+<div class="media-item">
+    <span class="outlet">CBS 2 Idaho News · Dec 2025</span><br>
+    <a href="https://idahonews.com/news/local/university-of-idaho-receives-133m-for-ptsd-research">University of Idaho receives $1.33M for PTSD research</a>
+</div>
 
-	Podcast interview for Deutsche Welle, Science Unscripted. “Sadness and the city”. September 29, 2023. 
-		<a class='generallink' href= https://www.dw.com/en/mental-health-depression-30-more-likely-in-a-city/audio-66952505> https://www.dw.com/en/mental-health-depression-30-more-likely-in-a-city/audio-66952505 </a>
-	</p> <p class="publications" >
+<div class="media-item">
+    <span class="outlet">Psychiatric Times (cover) · Apr 2025</span><br>
+    Xu, C. &amp; Kim, T. <a href="https://www.psychiatrictimes.com/view/no-your-patients-are-not-wrong-sometimes-antidepressant-side-effects-do-not-get-better">No, Your Patients Are Not Wrong: Sometimes Antidepressant Side Effects Do Not Get Better</a>
+</div>
 
-			
+<div class="media-item">
+    <span class="outlet">PsyPost · Nov 2024</span><br>
+    <a href="https://www.psypost.org/study-challenges-assumption-of-universal-improvement-in-antidepressant-side-effects/">Study challenges assumption of universal improvement in antidepressant side effects</a>
+</div>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<div class="media-item">
+    <span class="outlet">Psychiatric Times (cover) · Mar 2024</span><br>
+    Pigott, E., Kim, T., Xu, C., Kirsch, I., &amp; Amsterdam, J. <a href="https://www.psychiatrictimes.com/view/star-d-s-cumulative-remission-rate-and-why-it-still-matters">STAR*D's cumulative remission rate and why it still matters</a>
+</div>
+
+<div class="media-item">
+    <span class="outlet">Psychiatric Times (cover) · Mar 2024</span><br>
+    Miller, J. J. <a href="https://www.psychiatrictimes.com/view/exploring-the-star-d-controversy">Exploring the STAR*D Controversy</a>
+</div>
+
+<div class="media-item">
+    <span class="outlet">Psychiatric Times (cover) · Dec 2023</span><br>
+    Miller, J. J. <a href="https://www.psychiatrictimes.com/view/star-d-dethroned">STAR*D Dethroned?</a>
+</div>
+
+<div class="media-item">
+    <span class="outlet">Penn Today · Oct 2023</span><br>
+    Moser, E. <a href="https://penntoday.upenn.edu/news/psychology-five-takeaways-urbanicity-and-depression-research">Five takeaways on urbanicity and depression research</a>
+</div>
+
+<div class="media-item">
+    <span class="outlet">Deutsche Welle — Science Unscripted (podcast) · Sep 2023</span><br>
+    <a href="https://www.dw.com/en/mental-health-depression-30-more-likely-in-a-city/audio-66952505">Sadness and the city</a>
+</div>
+
+<footer>&copy; 2026 Colin Xu</footer>
 
 </body>
-	
-<!-- LINK PLACEHOLDER 	
-	<a href="LINK"> PDF </a>	
-	-->
-
-
-
-
-	
+</html>
